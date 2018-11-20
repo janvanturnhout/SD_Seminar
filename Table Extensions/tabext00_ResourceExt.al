@@ -7,7 +7,7 @@ tableextension 50100 "CSD ResourceExt" extends Resource
     {
         modify("Profit %")
         {
-            trigger OnAfterValidate()
+            trigger OnAfterValidate();
             begin
                 Rec.TestField("Unit Cost");
             end;
